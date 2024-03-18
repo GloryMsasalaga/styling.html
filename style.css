@@ -1,0 +1,55 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#introduction {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#skills {
+    margin-top: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+
+    #skills li {
+        font-size: 14px;
+    }
+}
